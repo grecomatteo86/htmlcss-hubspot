@@ -7,8 +7,50 @@
 /*/reset*/
 
 /*generals*/
-.listed_items{
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+.listed_items{
+ list-style: none;
+ display: inline-block;
+}
+
+.linked_items{
+ text-decoration: none;
+ font-size: 11px;
+ font-weight: 500;
+ color: rgb(77, 99, 114);
+}
+
+.float{
+  float: left;
+}
+
+/*clearfix*/
+.container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/*/clearfix*/
+
+.icons{
+  font-size: 11px;
+  color: rgb(77, 99, 114);
+  vertical-align: middle;
+}
+
+.button{
+  color: #FFFFFF;
+  background-color: rgb(252, 119, 95);
+  padding: 15px;
+  border-radius: 5px;
 }
 
 /*/generals*/
@@ -22,14 +64,38 @@
   border-bottom: 1px solid rgb(89, 100, 111);
 }
 
-.upper_nav_container{
-  width: 75%;
-  margin: auto;
-}
-
 .left_upper_nav,.right_upper_nav{
   width: 50%;
+  margin: 20px 0;
 }
+
+.right_upper_nav{
+  text-align: right;
+}
+
+.fa-angle-down{
+  font-size: 16px;
+  border-right: 1px solid rgb(77, 99, 114);
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.fa-search{
+  color: rgb(49, 168, 190);
+  margin-right: 12px;
+}
+
+.small{
+  padding: 8px;
+}
+
+.white{
+  color: rgb(251, 122, 94);
+  background-color: #FFFFFF;
+  border: 1px solid rgb(251, 122, 94);
+  margin-right: 13px;
+}
+
 /*/upper_nav*/
 
 /*/header*/
