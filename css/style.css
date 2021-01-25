@@ -158,6 +158,12 @@ body{
 /*/hero*/
 
 /*baseline*/
+.baseline{
+  background-color: rgb(177, 235, 228);
+  height: 65px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
 
 /*/baseline*/
 
