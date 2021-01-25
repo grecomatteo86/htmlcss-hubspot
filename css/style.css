@@ -49,10 +49,16 @@ body{
 .button{
   color: #FFFFFF;
   background-color: rgb(252, 119, 95);
-  padding: 15px;
+  padding: 15px 25px;
   border-radius: 5px;
 }
 
+.paragraph{
+ color: rgb(64, 86, 104);
+ font-size: 12px;
+ font-weight: 500;
+ line-height: 22px;
+}
 /*/generals*/
 
 
@@ -64,20 +70,18 @@ body{
   border-bottom: 1px solid rgb(89, 100, 111);
 }
 
-.left_upper_nav,.right_upper_nav{
+.left_nav,.right_nav{
   width: 50%;
   margin: 20px 0;
 }
 
-.right_upper_nav{
+.right_nav{
   text-align: right;
 }
 
 .fa-angle-down{
   font-size: 16px;
-  border-right: 1px solid rgb(77, 99, 114);
   margin-right: 10px;
-  padding-right: 10px;
 }
 
 .fa-search{
@@ -96,6 +100,65 @@ body{
   margin-right: 13px;
 }
 
+.left_nav .listed_items:last-child>.linked_items{
+  border-left: 1px solid rgb(77, 99, 114);
+  padding-left: 10px;
+}
 /*/upper_nav*/
+
+/*lower_nav*/
+.hubspot_logo{
+  width: 18%;
+}
+
+.pricing{
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.second_list>.icons{
+  margin-left: 8px;
+}
+/*/lower_nav*/
+
+/*hero*/
+.hero{
+  background-color: rgb(255, 243, 238);
+  height: 483px;
+  background-image: url("../img/jumbotron.png");
+  background-size: 1100px 550px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.hero>.container{
+  position: relative;
+}
+
+.text_box{
+  width: 50%;
+  position: absolute;
+  top: 40px;
+}
+
+.main_title{
+  color: rgb(52, 71, 90);
+  font-size: 37px;
+  margin-bottom: 25px;
+}
+
+.text_box>.button{
+  margin: 25px 0;
+  display: inline-block;
+}
+
+.litte{
+  font-size: 9px;
+}
+/*/hero*/
+
+/*baseline*/
+
+/*/baseline*/
 
 /*/header*/
