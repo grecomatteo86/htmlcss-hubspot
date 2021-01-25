@@ -1,7 +1,35 @@
-/*generals*/
+/*reset*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/*/reset*/
+
+/*generals*/
+.listed_items{
+
+}
+
 /*/generals*/
+
+
+/*header*/
+
+/*upper_nav*/
+.upper_nav{
+  background-color: rgb(244, 249, 253);
+  border-bottom: 1px solid rgb(89, 100, 111);
+}
+
+.upper_nav_container{
+  width: 75%;
+  margin: auto;
+}
+
+.left_upper_nav,.right_upper_nav{
+  width: 50%;
+}
+/*/upper_nav*/
+
+/*/header*/
