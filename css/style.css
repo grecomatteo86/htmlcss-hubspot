@@ -177,7 +177,7 @@ body{
 /*main*/
 /*first_section*/
 /*generals*/
-.first_section .container:nth-child(2){
+.first_section .container:nth-child(2), .first_section .col{
  background-color: rgb(255, 255, 255);
 }
 
@@ -262,5 +262,33 @@ body{
 }
 /*/vertical_align*/
 /*/first_row*/
+
+/*second_row*/
+.mid{
+  margin: 0 40px;
+  display: inline-block;
+}
+/*generals*/
+.col{
+  margin: 40px 0;
+  width: calc(100% / 3 - 40px);
+  text-align: center;
+}
+
+.image{
+  width: 100px;
+}
+
+.col .listed_items{
+  display: block;
+  text-align: left;
+  line-height: 14px;
+}
+/*/generals*/
+.mid{
+  margin: 0 40px;
+  display: inline-block;
+}
+/*/second_row*/
 /*/first_section*/
 /*/main*/
