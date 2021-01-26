@@ -65,7 +65,7 @@ body{
   font-size: 9px;
 }
 
-.second_title{
+.title{
   color: rgb(51, 70, 89);
 }
 /*/generals*/
@@ -153,8 +153,7 @@ body{
   top: 40px;
 }
 
-.main_title{
-  color: rgb(52, 71, 90);
+.main{
   font-size: 37px;
   margin-bottom: 25px;
 }
@@ -188,6 +187,21 @@ body{
   text-align: center;
   display: inline-block;
 }
+
+.fourth{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.hr{
+  color: rgb(135, 145, 149);
+}
+
+.check{
+  font-size: 12px;
+  margin-right: 10px;
+  color: rgb(249, 118, 94);
+}
 /*/generals*/
 .first_section{
   background-color: rgb(244, 249, 253);
@@ -199,23 +213,54 @@ body{
 }
 
 .cube{
+  margin-bottom: 40px;
+}
+
+.rubik{
   width: 200px;
   margin-top: 50px;
 }
 
 .first_section .paragraph{
-  margin: 20px 0 40px 0;
+  margin: 20px 0;
 }
 /*/cube's_section*/
 
 /*first_row*/
 .left_box{
   width: 28%;
+  text-align: center;
+  padding: 60px 60px 50px 60px;
+}
+
+.right_box{
+  width: 72%;
+  padding: 60px 60px 30px 60px;
 }
 
 .book{
-  width: 135px;
+  width: 125px;
 }
+
+.right_box .linked_items{
+  display: inline-block;
+  margin: 30px 20px 30px 0;
+}
+
+/*vertical_align*/
+.vertical_align .fourth,.fr{
+  display: inline-block;
+}
+
+.fr{
+  width: 320px;
+  margin-left: 40px;
+}
+
+.vertical_align h4,.vertical_align hr{
+  vertical-align: middle;
+}
+/*/vertical_align*/
 /*/first_row*/
 /*/first_section*/
 /*/main*/
