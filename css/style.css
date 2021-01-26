@@ -193,7 +193,7 @@ body{
   background-color: rgb(244, 249, 253);
 }
 /*cube's_section*/
-.first_section>.container{
+.first_section .container:first-child{
   text-align: center;
   width: 55%;
 }
@@ -216,7 +216,6 @@ body{
 .book{
   width: 135px;
 }
-
 /*/first_row*/
 /*/first_section*/
 /*/main*/
