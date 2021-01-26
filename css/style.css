@@ -264,19 +264,17 @@ body{
 /*/first_row*/
 
 /*second_row*/
-.mid{
-  margin: 0 40px;
-  display: inline-block;
-}
 /*generals*/
 .col{
+  width: 30%;
   margin: 40px 0;
-  width: calc(100% / 3 - 40px);
   text-align: center;
+  padding: 20px 30px 0 30px;
 }
 
 .image{
-  width: 100px;
+  width: 100%;
+  height: 100%;
 }
 
 .col .listed_items{
@@ -284,10 +282,46 @@ body{
   text-align: left;
   line-height: 14px;
 }
+
+.box_image{
+  width: 50%;
+  height: 90px;
+  margin: auto;
+}
+
+.third{
+  margin: 25px 0 30px 0;
+}
 /*/generals*/
 .mid{
-  margin: 40px 40px;
+  margin: 40px 5%;
+}
+
+.sales{
+  object-fit: cover;
+}
+
+.col .paragraph{
+  letter-spacing: -1px;
+}
+
+.col .sr{
+  margin: 50px 0 25px 0;
+}
+
+.col .fourth{
+  margin-bottom: 25px;
+}
+
+.col ul{
+  margin-bottom: 25px;
 }
 /*/second_row*/
+/*box_shadow*/
+.shadow{
+  box-shadow: 0 0 2px 2px rgb(234, 240, 245);
+  border-radius: 5px;
+}
+/*/box_shadow*/
 /*/first_section*/
 /*/main*/
