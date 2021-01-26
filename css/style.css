@@ -51,6 +51,7 @@ body{
   background-color: rgb(252, 119, 95);
   padding: 15px 25px;
   border-radius: 5px;
+  border: 1px solid rgb(252, 119, 95);
 }
 
 .paragraph{
@@ -58,6 +59,10 @@ body{
  font-size: 12px;
  font-weight: 500;
  line-height: 22px;
+}
+
+.litte{
+  font-size: 9px;
 }
 /*/generals*/
 
@@ -82,6 +87,10 @@ body{
 .fa-angle-down{
   font-size: 16px;
   margin-right: 10px;
+}
+
+.left_nav li:first-child>.icons{
+  margin-right: 5px;
 }
 
 .fa-search{
@@ -116,7 +125,7 @@ body{
   display: inline-block;
 }
 
-.second_list>.icons{
+.second_list .icons{
   margin-left: 8px;
 }
 /*/lower_nav*/
@@ -151,10 +160,6 @@ body{
   margin: 25px 0;
   display: inline-block;
 }
-
-.litte{
-  font-size: 9px;
-}
 /*/hero*/
 
 /*baseline*/
@@ -164,7 +169,6 @@ body{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-
 /*/baseline*/
 
 /*/header*/
