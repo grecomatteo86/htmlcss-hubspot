@@ -64,11 +64,14 @@ body{
 .litte{
   font-size: 9px;
 }
+
+.second_title{
+  color: rgb(51, 70, 89);
+}
 /*/generals*/
 
 
 /*header*/
-
 /*upper_nav*/
 .upper_nav{
   background-color: rgb(244, 249, 253);
@@ -170,5 +173,27 @@ body{
   border-bottom: 2px solid black;
 }
 /*/baseline*/
-
 /*/header*/
+
+/*main*/
+/*first_section*/
+.first_section{
+  background-color: rgb(244, 249, 253);
+}
+/*cube's_section*/
+.first_section>.container{
+  text-align: center;
+  width: 55%;
+}
+
+.cube{
+  width: 200px;
+  margin-top: 50px;
+}
+
+.first_section .paragraph{
+  margin: 20px 0;
+}
+/*/cube's_section*/
+/*/first_section*/
+/*/main*/
