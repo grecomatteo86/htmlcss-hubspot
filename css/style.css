@@ -177,6 +177,18 @@ body{
 
 /*main*/
 /*first_section*/
+/*generals*/
+.first_section .container:nth-child(2){
+ background-color: rgb(255, 255, 255);
+}
+
+.medium{
+  width: 135px;
+  margin: 20px 0;
+  text-align: center;
+  display: inline-block;
+}
+/*/generals*/
 .first_section{
   background-color: rgb(244, 249, 253);
 }
@@ -192,8 +204,19 @@ body{
 }
 
 .first_section .paragraph{
-  margin: 20px 0;
+  margin: 20px 0 40px 0;
 }
 /*/cube's_section*/
+
+/*first_row*/
+.left_box{
+  width: 28%;
+}
+
+.book{
+  width: 135px;
+}
+
+/*/first_row*/
 /*/first_section*/
 /*/main*/
