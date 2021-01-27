@@ -459,7 +459,16 @@ footer .listed_items{
 
 footer>.container>.square .linked_items{
   color:rgb(197, 208, 220);
+  font-weight: 600;
+  letter-spacing: -0.5px;
   line-height: 25px;
+}
+
+footer>.container .square:last-child .small{
+ font-size: 9.5px;
+  background-color: white;
+  border: white;
+  color:rgb(95, 110, 123);
 }
 
 /*footer*/
