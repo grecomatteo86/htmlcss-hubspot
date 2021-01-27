@@ -266,7 +266,7 @@ body{
 /*second_row*/
 /*generals*/
 .col{
-  width: 30%;
+  width:calc((100% - 80px) / 3);
   margin: 40px 0;
   text-align: center;
   padding: 20px 30px 0 30px;
@@ -294,7 +294,7 @@ body{
 }
 /*/generals*/
 .mid{
-  margin: 40px 5%;
+  margin: 40px 40px;
 }
 
 .sales{
@@ -335,6 +335,54 @@ body{
 .second_section .container{
   text-align: center;
 }
+
+.second_section .title{
+  display: inline-block;
+  letter-spacing: -0.1px;
+  margin: 40px 0 30px 0;
+}
+
+.second_section>.container>.paragraph{
+  margin-bottom: 30px;
+}
+
+.square{
+  width: 25%;
+}
+
+.little_img{
+  width: 15%;
+  margin-top: 15px;
+}
+
+.number{
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 8px 0;
+}
+
+.square .paragraph{
+  padding-bottom: 10px;
+}
+
+.second_section .title,.second_section .paragraph,.second_section .icons,.number{
+  color: white;
+}
+
+/*borders*/
+.bb{
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.br{
+  border-right: 1px solid white;
+  height: 200px; /*da modificare in seguito*/
+  display: inline-block;
+}
+/*/borders*/
 /*/second_section*/
 
 /*/main*/
