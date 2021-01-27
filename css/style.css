@@ -437,7 +437,30 @@ body{
 
 .third_section{
   margin-bottom: 20px;
+  background-color: rgb(255, 255, 255);
 }
 /*/adjustments*/
 /*/third_section*/
+
+/*footer*/
+footer{
+  background-color: rgb(51, 73, 90);
+}
+
+footer>.container>.square>h2{
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+footer .listed_items{
+  display: block;
+}
+
+footer>.container>.square .linked_items{
+  color:rgb(197, 208, 220);
+  line-height: 25px;
+}
+
+/*footer*/
 /*/main*/
