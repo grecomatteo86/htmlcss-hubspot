@@ -420,5 +420,24 @@ body{
 .girl{
   width: 55%;
 }
+
+/*adjustments*/
+.third_section .container:first-child{
+  margin-top: 20px;
+}
+
+.third_section .container:first-child .left{
+  padding-left: 60px;
+}
+
+.third_section .container:first-child .right{
+  padding-right: 60px;
+  line-height: 45px;
+}
+
+.third_section{
+  margin-bottom: 20px;
+}
+/*/adjustments*/
 /*/third_section*/
 /*/main*/
