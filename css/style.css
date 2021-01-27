@@ -343,11 +343,12 @@ body{
 }
 
 .second_section>.container>.paragraph{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .square{
   width: 25%;
+  margin-bottom: 80px;
 }
 
 .little_img{
@@ -379,7 +380,6 @@ body{
 
 .br{
   border-right: 1px solid white;
-  height: 200px; /*da modificare in seguito*/
   display: inline-block;
 }
 /*/borders*/
