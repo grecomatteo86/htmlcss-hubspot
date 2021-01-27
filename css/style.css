@@ -78,12 +78,12 @@ body{
   border-bottom: 1px solid rgb(89, 100, 111);
 }
 
-.left_nav,.right_nav{
+.left,.right{
   width: 50%;
   margin: 20px 0;
 }
 
-.right_nav{
+.right{
   text-align: right;
 }
 
@@ -92,7 +92,7 @@ body{
   margin-right: 10px;
 }
 
-.left_nav li:first-child>.icons{
+.left li:first-child>.icons{
   margin-right: 5px;
 }
 
@@ -112,7 +112,7 @@ body{
   margin-right: 13px;
 }
 
-.left_nav .listed_items:last-child>.linked_items{
+.left .listed_items:last-child>.linked_items{
   border-left: 1px solid rgb(77, 99, 114);
   padding-left: 10px;
 }
@@ -387,6 +387,27 @@ body{
 /*/second_section*/
 
 /*third_section*/
+.left>h4{
+  font-size: 35px;
+}
+
+.sponsor{
+  width: 20%;
+  vertical-align: middle;
+}
+
+.sponsor:not(.right>.sponsor:nth-of-type(4n+4)){
+  margin-right: 15px;
+}
+
+.left>.button{
+  margin: 25px 0;
+  display: inline-block;
+}
+
+.girl{
+  width: 25%;
+}
 
 /*/third_section*/
 /*/main*/
