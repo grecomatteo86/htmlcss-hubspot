@@ -400,14 +400,25 @@ body{
   margin-right: 15px;
 }
 
+.third_section .container:nth-of-type(2)>.left{
+  width: 44%;
+}
+
+.third_section .container:nth-of-type(2)>.right{
+  width: 56%;
+}
+
+.third_section .third{
+  font-size: 25px;
+}
+
 .left>.button{
   margin: 25px 0;
   display: inline-block;
 }
 
 .girl{
-  width: 25%;
+  width: 55%;
 }
-
 /*/third_section*/
 /*/main*/
