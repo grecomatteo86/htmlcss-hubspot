@@ -248,17 +248,14 @@ body{
 }
 
 /*vertical_align*/
-.vertical_align .fourth,.fr{
+.vertical_align{
   display: inline-block;
+  vertical-align: middle;
 }
 
 .fr{
   width: 320px;
   margin-left: 40px;
-}
-
-.vertical_align h4,.vertical_align hr{
-  vertical-align: middle;
 }
 /*/vertical_align*/
 /*/first_row*/
