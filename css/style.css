@@ -448,9 +448,12 @@ footer{
 }
 
 /*upper_footer*/
-footer>.container>.square>h2{
+footer .container .paragraph{
   color: white;
   font-weight: 700;
+}
+
+footer .container .square{
   margin-top: 30px;
 }
 
@@ -489,6 +492,18 @@ footer .square:last-child{
 /*lower_footer*/
 footer .container:last-child{
   text-align: center;
+}
+
+footer .container:last-child .listed_items{
+  margin-bottom: 10px;
+}
+
+footer .container:last-child>ul{
+  border-bottom: 1px solid rgb(146, 159, 171);
+}
+
+footer .container:last-child .left{
+  text-align: left;
 }
 /*lower_footer*/
 /*footer*/
