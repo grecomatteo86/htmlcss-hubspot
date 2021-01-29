@@ -113,9 +113,9 @@ body{
   background-color: rgb(255, 243, 238);
   height: 483px;
   background-image: url("../img/jumbotron.png");
-  background-size: 1100px 550px;
+  background-size: 1000px 500px;
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: bottom right;
 }
 .hero>.container{
   position: relative;
@@ -135,11 +135,18 @@ body{
 }
 /*/hero*/
 /*baseline*/
-.baseline{
+header{
+  position: relative;
+}
+header::after{
   background-color: rgb(177, 235, 228);
-  height: 65px;
+  width: 100vw;
+  height: 60px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  content: "";
+  position: absolute;
+  bottom: 0;
 }
 /*/baseline*/
 /*/header*/
